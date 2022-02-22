@@ -1,0 +1,64 @@
+
+body{
+    background-color: rgb(94, 93, 93);
+}
+
+.nav-link{
+    text-transform: capitalize;
+}
+
+.jumbotron{
+    background-image: url(img/fondo\ coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: aliceblue;
+    border-radius: 0;
+    margin: 0;
+}
+.jumbotron h1{
+    color: rgb(145, 145, 145);
+    text-transform: capitalize;
+}
+h2{
+    text-align: center;
+    background-color: rgb(66, 36, 36);
+    padding: 5px;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+.btn-info:hover{
+    background-color: rgb(14, 14, 14);
+}
+
+.product-row{
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10%;
+    
+}
+.card{
+    border: 2px solid rgb(82, 81, 81);
+    margin-bottom: 10px;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+
+.title-contact{
+    text-align: center;
+}
+.subtitle{
+    text-align: center;
+    text-transform: capitalize;
+}
+iframe{
+    margin: 10px;
+    
+}
+.contacto{
+    margin: 10px;
+}
